@@ -1,0 +1,22 @@
+name: testing_debugging_flutter_lab
+description: A small Flutter lab project for Testing & Debugging in Flutter
+publish_to: 'none'
+version: 0.0.1
+environment:
+  sdk: '>=2.18.0 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  integration_test:
+    sdk: flutter
+  mockito: ^5.4.0
+  build_runner: ^2.4.0
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
